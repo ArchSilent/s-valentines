@@ -10,7 +10,7 @@ export default function ValentinesPage() {
 
   const moveNoButton = () => {
     setNoMoved(true);
-    setYesSize((prev) => prev + 0.2);
+    setYesSize((prev) => prev + 0.5);
     const newTop = Math.random() * 300 - 150; // Movimiento más amplio
     const newLeft = Math.random() * 300 - 150;
     setNoPosition({ top: `${newTop}px`, left: `${newLeft}px` });
